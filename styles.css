@@ -71,9 +71,15 @@ body {
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 700;
     text-wrap: wrap;
     padding: 2rem 1rem;
+}
+
+h3 em {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;    
 }
 
 #form-fields {
