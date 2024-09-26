@@ -68,6 +68,14 @@ body {
     background-color: rgb(245,245,245);;
 }
 
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-wrap: wrap;
+    padding: 2rem 1rem;
+}
+
 #form-fields {
     background-color: white;
     box-shadow: 0px 2px 5px rgba(0,0,0,0.2);
