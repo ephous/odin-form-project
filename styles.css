@@ -63,7 +63,18 @@ body {
     text-align: center;
 }
 
-#main{
+#main {
     height: 100%;
     background-color: rgb(245,245,245);;
+}
+
+.form-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
