@@ -71,10 +71,23 @@ body {
 .form-row {
     display: flex;
     justify-content: flex-start;
+    gap: 3rem;
 }
 
 .form-field {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+}
+
+.form-field label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.55rem;
+    font-weight: 600;
+}
+
+.form-field input {
+    border: 1px solid lightslategray;
+    border-radius: 4px;
+    margin-bottom: 1.5rem;
 }
