@@ -104,6 +104,7 @@ h3 {
     border: 1px solid lightslategray;
     border-radius: 4px;
     margin-bottom: 1.5rem;
+    padding: 2px;
 }
 
 #form-submit {
