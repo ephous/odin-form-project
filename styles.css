@@ -107,10 +107,26 @@ h3 em {
 }
 
 .form-field input {
-    border: 1px solid lightslategray;
     border-radius: 4px;
     margin-bottom: 1.5rem;
     padding: 2px;
+}
+
+
+.form-field input:not(:focus) {
+    border: 1px solid lightslategray;
+    background-color: none;
+}
+
+.form-field input:focus {
+    border-color: 2px solid lightblue;
+    background-color: lightgoldenrodyellow;
+}
+
+/*https://stackoverflow.com/questions/27021801/inputinvalid-css-rule-is-applied-on-page-load*/
+.form-field input:not(:placeholder-shown):not(:focus):invalid {
+    border: 2px solid red;
+    background-color: lightpink;
 }
 
 #form-submit {
